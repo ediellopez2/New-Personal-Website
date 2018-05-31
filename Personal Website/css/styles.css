@@ -1,0 +1,288 @@
+/*
+Author: Ediel Lopez
+Date Created: 5/24/2018
+Date Last Modified: 5/30/2018
+Master Project: Personal Website for Bitwise Industries
+*/
+
+/*   Reset Styles and Global Styles    */
+/* *********************************** */
+a {
+	text-decoration: none;
+}
+body {
+	font-family: "Crete Round", "Times New Roman", serif;
+}
+footer, header, li, main, nav, table, tr, td, th, thead, tbody, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+li {
+    list-style-type: none;
+}
+ul {
+   list-style-type: none;
+}
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+
+/* 				Navigation Bar   	  	 */
+/* ************************************* */
+nav.sitenavigation {
+    background-color: #2E4054; /*#F4F6F6*/
+    border-radius: 4px 4px 0 0;
+    text-align: center;
+}
+nav.sitenavigation li {
+	display: inline-block;
+	font-size: 1.3em;
+	margin: 0.5em;
+}
+nav.sitenavigation a:link {
+   color: #FFF;
+   font-weight: bold;
+}
+nav.sitenavigation a:visited {
+   color: #E5E7E9; 
+}
+nav.sitenavigation a:hover, nav.sitenavigation a:focus {
+   text-shadow: 0 0 2px #FFF; /*#DFDCE3*/
+}
+/* ************************************* */
+
+/*   	Background Cover Picture    */
+/* ******************************** */
+.banner {	/*Preferred Method*/	/*index.html*/
+	background-image: url('../images/workstation1.jpg');
+	background-size: cover;
+	display: block;
+	width: 100%;
+	height: 800px;
+
+	position: relative;
+}
+/*	Alternative method for the banner
+.cover-pic {	
+	background-size: cover;
+	width: 100%;
+	display: block;
+}*/
+main.banner img {
+	border-radius: 50%;
+	float: right;
+	padding: 180px;
+}
+main.banner h2 {
+	font-size: 38px;
+	font-weight: bold;
+	left: 200px;
+	/*margin: 8px;*/
+	position: absolute;
+	top: 200px;
+	width: 100%;
+	/*padding: 10px;*/
+}
+main.banner h2 span {
+	background-color: rgba(19, 37, 63, 0.5);
+	color: #fff; /*rgb(231, 235, 231)*/
+	letter-spacing: -1px;
+}
+.bannerTwo {
+	background-image: url('../images/canvas.jpg');/*skills.html*/
+	background-size: cover;
+	display: block;
+	width: 100%;
+	height: 800px;
+
+	position: relative;
+}
+.bannerThree {
+	background-image: url('../images/desk.jpg');/*skills.html*/
+	background-size: cover;
+	display: block;
+	width: 100%;
+	height: 1000px;
+
+	position: relative;
+}
+/* ******************************** */
+
+
+/*			Footer 		   	 */
+/* ************************* */
+.footer {
+    background-color: #2E4054;
+    border-radius: 0 0 4px 4px;
+    clear: both;
+    height: 100px;
+}
+.footer-section {
+    width: 33.3%;
+    float: left;
+    padding-top: 25px;
+    text-align: center;
+}
+.footer-section p {
+    color: #FFF;
+}
+#social {
+	text-align: center;
+}
+.fab {
+	font-size: 2em;
+	color: #000;
+	margin: 10px;
+	height: 20px;
+	width: 20px;
+}
+.button {	/*For icons*/
+    height: 25px;
+    width: 100px;
+    background-color: blue;
+    color: #FFF;
+    border-radius: 8px;
+    margin: 14px auto;
+}
+/*.footer-button {*/
+/*    clear:right;*/
+/*}*/
+.fa-facebook-square {
+    color:#FFF;
+}
+.fa-facebook-square:hover {
+    color:#000;
+    text-shadow: 0 0 2px #444;
+}
+.fa-instagram {
+    color: #FFF;
+}
+.fa-instagram:hover {
+	color: #000; 
+	text-shadow: 0 0 2px #444;
+}
+.fa-linkedin {
+	 color:#FFF;
+}
+.fa-linkedin:hover {
+	color: #000; 
+	text-shadow: 0 0 2px #444;
+}
+.fa-github-square {
+	color: #FFF;
+}
+.fa-github-square:hover {
+	color: #000; 
+	text-shadow: 0 0 2px #444;
+}
+/* ************************* */
+
+/*			Photo Gallery 			*/
+/* ================================ */
+.body {
+	background-color: #F9F5EE;
+	width: 100%;
+	height: 500px;
+	margin: 0 auto;
+}
+.gallery {
+	height: 260px;
+	margin: auto;
+	width: 80%;
+}
+.gallery-item {
+    margin: 5px;
+   	border: 2px solid #000;
+    float: left;
+    width: 32%;
+}
+.gallery img {
+    width: 100%;
+    height: 180px;
+}
+.desc {
+    padding: 8px;
+    text-align: center;
+}
+/* ================================ */
+
+/*		Contact Form  			*/
+.contact-form {
+	border: 3px solid #000;
+	clear: both;
+	height: 700px;
+	margin: 0 auto;
+	width: 70%;
+}
+
+/* ============ main content tables ================*/
+table {
+   width: 90%;
+   margin: 0 auto;
+   border: 5px solid black;
+   background-color: #FFF;
+   color: black;
+}
+.moveDown {
+	margin-top: 20px;	
+}
+table th, table td {
+   border: 2px solid black;
+   padding: 0.5em;
+}
+.rightJustify {
+   text-align: right;
+}
+.bullet {
+	list-style-type: disc;
+}
+.moveRight {
+	padding-left: 24px;
+}
+.modifyTable {
+	padding-top: 90px;	
+}
+.no-border {
+	width: 60%;
+}
+.makebigger {
+	font-size: 22px;
+}
+
+td.rightJustify {
+	padding-left: 2em;
+    text-align: left;
+}
+/* ==================================================*/
+
+/* =========== Contact Form ============ */
+.form {
+	padding-top: 100px;
+	margin: 0 auto;
+	width: 60%;
+}
+.roominfo label {
+	margin-right: 1.6em;
+}
+#feedback {
+   width: 80%;
+   display: block;
+}
+/* ===================================== */
+
+/*	======= Submit ======= */
+.submitbutton {
+   border: none;
+   text-align: center;
+}
+#submit {
+   border: 1px solid #999;
+   font-size: 1em;
+   font-weight: bold;
+   background-color: #AAA;
+   border-radius: 0.3em;
+}
+/*	====================== */
